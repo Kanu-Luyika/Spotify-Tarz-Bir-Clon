@@ -1,0 +1,726 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: sans-serif, monospace, cursive;
+    background: #000;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+.sidebar{
+    width: 310px;
+    height: 100vh;
+    background: black;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+.sidebar .sidebar-main-1{
+    width: 290px;
+    height: 110px;
+    margin-left: 15px;
+    margin-top: 7%;
+    background: #1d1d1d;
+    border-radius: 6px 6px 6px 6px;
+}
+.sidebar-main-1 .sidebar-main-link-1{
+    background-color: #1d1d1d;
+    width: 270px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-main-1 .sidebar-main-link-1:link, .sidebar-main-link-1:visited{
+    background: #1d1d1d;
+}
+.sidebar-main-1 .sidebar-main-link-1:hover, .sidebar-main-link-1:active{
+    background: #363636;
+    transition: 0.4s;
+}
+.sidebar-main-link-1 .link-text-1{
+    font-size: 17.5px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f0f0f0;
+    margin-left: -80px;
+    letter-spacing: 1px;
+}
+.sidebar-main-link-1 .link-text-1:link, .link-text-1:visited{
+    display: block;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.sidebar-main-link-1 .link-text-1:hover, .link-text-1:active{
+    display: block;
+    color: #ffffff;
+    text-decoration: underline #f0f0f0;
+    transition: 0.4s;
+}
+.sidebar-main-link-1 #icon-1{
+    color: #f0f0f0;
+    font-size: 22px;
+    padding-right: 30px;
+}
+.link-text-1:hover #icon-1, .link-text-1:active #icon-1{
+    color: #ffffff;
+    transition: 0.4s;
+}
+/*link 2 aşşağıda*/
+.sidebar-main-1 .sidebar-main-link-2{
+    background-color: #1d1d1d;
+    width: 270px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-main-1 .sidebar-main-link-2:link, .sidebar-main-link-2:visited{
+    background: #1d1d1d;
+}
+.sidebar-main-1 .sidebar-main-link-2:hover, .sidebar-main-link-2:active{
+    background: #363636;
+    transition: 0.4s;
+}
+.sidebar-main-link-2 .link-text-2{
+    font-size: 17.5px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f0f0f0;
+    margin-left: -110px;
+    letter-spacing: 1px;
+}
+.sidebar-main-link-2 .link-text-2:link, .link-text-2:visited{
+    display: block;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.sidebar-main-link-2 .link-text-2:hover, .link-text-2:active{
+    display: block;
+    color: #ffffff;
+    text-decoration: underline #f0f0f0;
+    transition: 0.4s;
+}
+.sidebar-main-link-2 #icon-2{
+    color: #f0f0f0;
+    font-size: 24px;
+    padding-right: 30px;
+}
+.link-text-2:hover #icon-2, .link-text-2:active #icon-1{
+    color: #ffffff;
+    transition: 0.4s;
+}
+/*sidebar menü 2 aşşağıda*/
+.sidebar .sidebar-main-2{
+    width: 290px;
+    height: 240px;
+    margin-left: -290px;
+    margin-top: 45%;
+    background: #1d1d1d;
+    border-radius: 6px 6px 6px 6px;
+}
+.sidebar-main-2 .sidebar-main-link-3{
+    background-color: #1d1d1d;
+    width: 270px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-main-2 .sidebar-main-link-3:link, .sidebar-main-link-3:visited{
+    background: #1d1d1d;
+}
+.sidebar-main-2 .sidebar-main-link-3:hover, .sidebar-main-link-3:active{
+    background: #363636;
+    transition: 0.4s;
+}
+.sidebar-main-link-3 .link-text-3{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f0f0f0;
+    margin-left: -10px;
+    letter-spacing: 1px;
+}
+.sidebar-main-link-3 .link-text-3:link, .link-text-3:visited{
+    display: block;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.sidebar-main-link-3 .link-text-3:hover, .link-text-3:active{
+    display: block;
+    color: #ffffff;
+    text-decoration: underline #f0f0f0;
+    transition: 0.4s;
+}
+.sidebar-main-link-3 #icon-3{
+    color: #f0f0f0;
+    font-size: 25px;
+    padding-right: 30px;
+    padding-top: 1px;
+}
+.link-text-3:hover #icon-3, .link-text-3:active #icon-3{
+    color: #ffffff;
+    transition: 0.4s;
+}
+.sidebar-main-link-3 #icon-3-1{
+    color: #f0f0f0;
+    font-size: 25px;
+    padding-left: 90px;
+    padding-top: 1px;
+    pointer-events: none;
+}
+.link-text-3:hover #icon-3-1, .link-text-3:active #icon-3-1{
+    color: #ffffff;
+    transition: 0.4s;
+}
+/*link 4 ve dahası aşşağıda*/
+.sidebar-main-2 .sidebar-main-link-4{
+    background-color: #1d1d1d;
+    width: 270px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-main-2 .sidebar-main-link-4:link, .sidebar-main-link-4:visited{
+    background: #1d1d1d;
+}
+.sidebar-main-2 .sidebar-main-link-4:hover, .sidebar-main-link-4:active{
+    background: #363636;
+    transition: 0.4s;
+}
+.sidebar-main-link-4 .link-text-4{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f0f0f0;
+    margin-left: 3px;
+    letter-spacing: 1px;
+}
+.sidebar-main-link-4 .link-text-4:link, .link-text-4:visited{
+    display: block;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.sidebar-main-link-4 .link-text-4:hover, .link-text-4:active{
+    display: block;
+    color: #ffffff;
+    text-decoration: underline #f0f0f0;
+    transition: 0.4s;
+}
+.sidebar-main-link-4 #icon-4{
+    color: #f0f0f0;
+    font-size: 24.5px;
+    padding-right: 15px;
+    padding-top: 1px;
+}
+.link-text-4:hover #icon-4, .link-text-4:active #icon-4{
+    color: #ffffff;
+    transition: 0.4s;
+}
+/*link 5 ve dahası aşşağıda*/
+.sidebar-main-2 .sidebar-main-link-5{
+    background-color: #1d1d1d;
+    width: 270px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-main-2 .sidebar-main-link-5:link, .sidebar-main-link-5:visited{
+    background: #1d1d1d;
+}
+.sidebar-main-2 .sidebar-main-link-5:hover, .sidebar-main-link-5:active{
+    background: #363636;
+    transition: 0.4s;
+}
+.sidebar-main-link-5 .link-text-5{
+    font-size: 17.5px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f0f0f0;
+    margin-left: -96px;
+    letter-spacing: 1px;
+}
+.sidebar-main-link-5 .link-text-5:link, .link-text-5:visited{
+    display: block;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.sidebar-main-link-5 .link-text-5:hover, .link-text-5:active{
+    display: block;
+    color: #ffffff;
+    text-decoration: underline #f0f0f0;
+    transition: 0.4s;
+}
+.sidebar-main-link-5 #icon-5{
+    color: #f0f0f0;
+    font-size: 24.5px;
+    padding-right: 15px;
+    padding-top: 1px;
+}
+.link-text-5:hover #icon-5, .link-text-5:active #icon-5{
+    color: #ffffff;
+    transition: 0.4s;
+}
+/*link 6 ve dahası aşşağıda*/
+.sidebar-main-2 .sidebar-main-link-6{
+    background-color: #1d1d1d;
+    width: 270px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-main-2 .sidebar-main-link-6:link, .sidebar-main-link-6:visited{
+    background: #1d1d1d;
+}
+.sidebar-main-2 .sidebar-main-link-6:hover, .sidebar-main-link-6:active{
+    background: #363636;
+    transition: 0.4s;
+}
+.sidebar-main-link-6 .link-text-6{
+    font-size: 17.5px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #f0f0f0;
+    margin-left: -34px;
+    letter-spacing: 1px;
+}
+.sidebar-main-link-6 .link-text-6:link, .link-text-6:visited{
+    display: block;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.sidebar-main-link-6 .link-text-6:hover, .link-text-6:active{
+    display: block;
+    color: #ffffff;
+    text-decoration: underline #f0f0f0;
+    transition: 0.4s;
+}
+.sidebar-main-link-6 #icon-6{
+    color: #f0f0f0;
+    font-size: 24.5px;
+    padding-right: 15px;
+    padding-top: 1px;
+}
+.link-text-6:hover #icon-6, .link-text-6:active #icon-6{
+    color: #ffffff;
+    transition: 0.4s;
+}
+/*menu container aşşağıdadır.*/
+.menu-container{
+    width: 1010px;
+    height: 94vh;
+    margin-top: 1.4%;
+    margin-left: 330px;
+    background: #3a3a3a;
+    border-radius: 8px 8px 8px 8px;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #cfcfcf;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:link, ::-webkit-scrollbar-thumb:visited{
+    background: #cfcfcf;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active{
+    background: #ffffff;
+    border-radius: 10px;
+}
+.menu-container .one-cikan-music-1{
+    width: 200px;
+    height: 220px;
+    border-radius: 6px 6px 6px 6px;
+    background: #464646;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+}
+.menu-container .one-cikan-music-1:link, .one-cikan-music-1:visited{
+    background: #464646;
+    border-radius: 6px 6px 6px 6px;
+}
+.menu-container .one-cikan-music-1:hover, .one-cikan-music-1:active{
+    background: #707070;
+    border-radius: 4px 4px 4px 4px;
+    transition: 0.8s;
+}
+.one-cikan-music-1 .images-music-1{
+    width: 180px;
+    height: 150px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(resimler/Sakin\ Atmosfer.png);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.one-cikan-music-1 .musices-text-1{
+    width: 180px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: -180px;
+    border-radius: 4px 4px 4px 4px;
+    background: none;
+    color: #000;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*müzik 2 aşşağıdadır.*/
+.menu-container .one-cikan-music-2{
+    width: 200px;
+    height: 220px;
+    border-radius: 6px 6px 6px 6px;
+    background: #464646;
+    margin-left: 280px;
+    margin-top: -220px;
+    display: flex;
+}
+.menu-container .one-cikan-music-2:link, .one-cikan-music-2:visited{
+    background: #464646;
+    border-radius: 6px 6px 6px 6px;
+}
+.menu-container .one-cikan-music-2:hover, .one-cikan-music-2:active{
+    background: #707070;
+    border-radius: 4px 4px 4px 4px;
+    transition: 0.8s;
+}
+.one-cikan-music-2 .images-music-2{
+    width: 180px;
+    height: 150px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(resimler/Sakin\ Atmosfer.png);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.one-cikan-music-2 .musices-text-2{
+    width: 180px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: -180px;
+    border-radius: 4px 4px 4px 4px;
+    background: none;
+    color: #000;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*müzik 3 aşşağıdadır.*/
+.menu-container .one-cikan-music-3{
+    width: 200px;
+    height: 220px;
+    border-radius: 6px 6px 6px 6px;
+    background: #464646;
+    margin-left: 520px;
+    margin-top: -220px;
+    display: flex;
+}
+.menu-container .one-cikan-music-3:link, .one-cikan-music-3:visited{
+    background: #464646;
+    border-radius: 6px 6px 6px 6px;
+}
+.menu-container .one-cikan-music-3:hover, .one-cikan-music-3:active{
+    background: #707070;
+    border-radius: 4px 4px 4px 4px;
+    transition: 0.8s;
+}
+.one-cikan-music-3 .images-music-3{
+    width: 180px;
+    height: 150px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(resimler/Sakin\ Atmosfer.png);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.one-cikan-music-3 .musices-text-3{
+    width: 180px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: -180px;
+    border-radius: 4px 4px 4px 4px;
+    background: none;
+    color: #000;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*müzik 4 aşşağıdadır.*/
+.menu-container .one-cikan-music-4{
+    width: 200px;
+    height: 220px;
+    border-radius: 6px 6px 6px 6px;
+    background: #464646;
+    margin-left: 765px;
+    margin-top: -220px;
+    display: flex;
+}
+.menu-container .one-cikan-music-4:link, .one-cikan-music-4:visited{
+    background: #464646;
+    border-radius: 6px 6px 6px 6px;
+}
+.menu-container .one-cikan-music-4:hover, .one-cikan-music-4:active{
+    background: #707070;
+    border-radius: 4px 4px 4px 4px;
+    transition: 0.8s;
+}
+.one-cikan-music-4 .images-music-4{
+    width: 180px;
+    height: 150px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(resimler/Sakin\ Atmosfer.png);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.one-cikan-music-4 .musices-text-4{
+    width: 180px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: -180px;
+    border-radius: 4px 4px 4px 4px;
+    background: none;
+    color: #000;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*müzik 5 aşşağıdadır.*/
+.menu-container .one-cikan-music-5{
+    width: 200px;
+    height: 220px;
+    border-radius: 6px 6px 6px 6px;
+    background: #464646;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+}
+.menu-container .one-cikan-music-5:link, .one-cikan-music-5:visited{
+    background: #464646;
+    border-radius: 6px 6px 6px 6px;
+}
+.menu-container .one-cikan-music-5:hover, .one-cikan-music-5:active{
+    background: #707070;
+    border-radius: 4px 4px 4px 4px;
+    transition: 0.8s;
+}
+.one-cikan-music-5 .images-music-5{
+    width: 180px;
+    height: 150px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(resimler/Sakin\ Atmosfer.png);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.one-cikan-music-5 .musices-text-5{
+    width: 180px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: -180px;
+    border-radius: 4px 4px 4px 4px;
+    background: none;
+    color: #000;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*müzik 6 aşşağıdadır.*/
+.menu-container .one-cikan-music-6{
+    width: 200px;
+    height: 220px;
+    border-radius: 6px 6px 6px 6px;
+    background: #464646;
+    margin-left: 280px;
+    margin-top: -220px;
+    display: flex;
+}
+.menu-container .one-cikan-music-6:link, .one-cikan-music-6:visited{
+    background: #464646;
+    border-radius: 6px 6px 6px 6px;
+}
+.menu-container .one-cikan-music-6:hover, .one-cikan-music-6:active{
+    background: #707070;
+    border-radius: 4px 4px 4px 4px;
+    transition: 0.8s;
+}
+.one-cikan-music-6 .images-music-6{
+    width: 180px;
+    height: 150px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(resimler/Sakin\ Atmosfer.png);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.one-cikan-music-6 .musices-text-6{
+    width: 180px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: -180px;
+    border-radius: 4px 4px 4px 4px;
+    background: none;
+    color: #000;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*müzik 7 aşşağıdadır.*/
+.menu-container .one-cikan-music-7{
+    width: 200px;
+    height: 220px;
+    border-radius: 6px 6px 6px 6px;
+    background: #464646;
+    margin-left: 520px;
+    margin-top: -220px;
+    display: flex;
+}
+.menu-container .one-cikan-music-7:link, .one-cikan-music-7:visited{
+    background: #464646;
+    border-radius: 6px 6px 6px 6px;
+}
+.menu-container .one-cikan-music-7:hover, .one-cikan-music-7:active{
+    background: #707070;
+    border-radius: 4px 4px 4px 4px;
+    transition: 0.8s;
+}
+.one-cikan-music-7 .images-music-7{
+    width: 180px;
+    height: 150px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(resimler/Sakin\ Atmosfer.png);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.one-cikan-music-7 .musices-text-7{
+    width: 180px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: -180px;
+    border-radius: 4px 4px 4px 4px;
+    background: none;
+    color: #000;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*müzik 8 aşşağıdadır.*/
+.menu-container .one-cikan-music-8{
+    width: 200px;
+    height: 220px;
+    border-radius: 6px 6px 6px 6px;
+    background: #464646;
+    margin-left: 765px;
+    margin-top: -220px;
+    display: flex;
+}
+.menu-container .one-cikan-music-8:link, .one-cikan-music-8:visited{
+    background: #464646;
+    border-radius: 6px 6px 6px 6px;
+}
+.menu-container .one-cikan-music-8:hover, .one-cikan-music-8:active{
+    background: #707070;
+    border-radius: 4px 4px 4px 4px;
+    transition: 0.8s;
+}
+.one-cikan-music-8 .images-music-8{
+    width: 180px;
+    height: 150px;
+    border-radius: 4px 4px 4px 4px;
+    background-image: url(resimler/Sakin\ Atmosfer.png);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.one-cikan-music-8 .musices-text-8{
+    width: 180px;
+    height: 40px;
+    margin-top: 170px;
+    margin-left: -180px;
+    border-radius: 4px 4px 4px 4px;
+    background: none;
+    color: #000;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
